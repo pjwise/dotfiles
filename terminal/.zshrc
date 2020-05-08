@@ -40,11 +40,18 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # -------------- Personal  Aliases --------------
-alias ls="ls -lh"
+alias ls="ls -lh --color=auto"
+
+alias reload="source $HOME/.zshrc"
 
 alias ga="git add"
 alias gc="git commit"
-alias gs="git status"
 alias gstash="git stash"
 alias gstashp="git stash pop"
+alias gs="git status -sb"
+alias gg="git log --graph --oneline --decorate=short"
+alias gch="git checkout"
 # -----------------------------------------------
+
+path+=("$HOME/utils")
+export PATH
