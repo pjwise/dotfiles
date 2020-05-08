@@ -51,6 +51,7 @@ alias gstashp="git stash pop"
 alias gs="git status -sb"
 alias gg="git log --graph --oneline --decorate=short"
 alias gch="git checkout"
+alias gp="git push"
 # -----------------------------------------------
 
 path+=("$HOME/utils")
