@@ -43,6 +43,7 @@ source $ZSH/oh-my-zsh.sh
 alias ls="ls -lh --color=auto"
 
 alias reload="source $HOME/.zshrc"
+alias x="exit"
 
 alias ga="git add"
 alias gc="git commit"

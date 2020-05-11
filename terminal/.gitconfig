@@ -1,6 +1,6 @@
 [user]
-    name = Michael Wales
-    email = webmaster@michaelwales.com
+    name = PJ Wise
+    email = pjameswise@gmail.com
 
 [core]
   pager = diff-so-fancy | less --tabs=4 -RFX
