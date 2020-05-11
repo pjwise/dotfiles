@@ -55,5 +55,8 @@ alias gch="git checkout"
 alias gp="git push"
 # -----------------------------------------------
 
+# Set vim as the default editor
+alias editor=vim
+
 path+=("$HOME/utils")
 export PATH

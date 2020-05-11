@@ -26,6 +26,12 @@ if ! type tmux > /dev/null; then
     exit 1
 fi
 
+# Check that vim is installed
+if ! type vim > /dev/null; then
+    echo "vim not installed. Exiting."
+    exit 1
+fi
+
 # Clear old dotfiles
 rm -rf .zshrc .p10k.zsh .oh-my-zsh
 
